@@ -6,9 +6,9 @@ let fullTank = true;
 
 //check if there is room for everyone
 if(seatsInCar >= passengers && infantSeats >= infants) {
-    console.log('You are ready to go!');
+    console.log('You have enough room!');
     if( fullTank ){
-        console.log('ready to hit the road');
+        console.log('You are ready to hit the road');
     } else{
         console.log('must gas up first!');
     }
